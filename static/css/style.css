@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  color: #c1c1c1;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1350px;
+  margin: auto;
+}
+
+body {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background-color: #131A20;
+}
+
+.background{
+  background-image: url("../media/bck.jpg");
+  background-repeat: no-repeat;
+}

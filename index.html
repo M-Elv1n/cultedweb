@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static//css/normalize.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="static/css/header/header.css" />
+    <link rel="stylesheet" href="static/css/info/info.css" />
+    <link rel="stylesheet" href="static/css/services/services.css" />
+    <link rel="stylesheet" href="static/css/digital/digital.css" />
+    <link rel="stylesheet" href="static/css/contact/contact.css" />
+    <link rel="stylesheet" href="static/css/media.css" />
+    <title>ultedweb</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__main">
+        <a href=""><img src="./static/media/header/logo (1).svg" alt="" /></a>
+        <ul class="header__list">
+          <li><a href="">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#digital">Portfolio</a></li>
+        </ul>
+        <p><a href="#contact">Get in Touch</a></p>
+      </div>
+      <div class="header__body">
+        <a href=""><img src="./static/media/header/logo (1).svg" alt="" /></a>
+        <button class="header__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="header__menu">
+          <li><a href="">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#digital">Portfolio</a></li>
+          <li><a href="#contact">Get in Touch</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="info">
+
+      <div class="info__items container">
+        <h1>Innovative Websites that tell your Brand's story</h1>
+        <p>
+          We specialize in creating modern, dynamic websites that help
+          businesses grow and stand out online. Driven by a passion for crafting
+          unique digital experiences, we are committed to transforming your
+          vision into a powerful online presence.
+        </p>
+      </div>
+      <img class="bg" src="./static/media/bck.jpg" alt="">
+    </div>
+
+    <div class="services container">
+      <p class="services__title" id="services">Services we provide</p>
+      <div class="services__container">
+        <div class="services__box">
+          <img src="./static/media/services/1.svg" alt="" />
+          <h2>Custom Design</h2>
+          <div class="services__product">
+            <span>User Research</span>
+            <span>Customer Development</span>
+            <span>Prototyping and Wireframing</span>
+            <span>Color theory and typography</span>
+            <span>Conducting usability testing</span>
+            <span>Responsive Design</span>
+          </div>
+        </div>
+        <div class="services__box">
+          <img src="./static/media/services/2.svg" alt="" />
+          <h2>Web Development</h2>
+          <div class="services__product">
+            <span>HTML/CSS Development</span>
+            <span>JavaScript(React) Development</span>
+            <span>Python(Django) Development</span>
+            <span>SQL Database management </span>
+            <span>Docker containerization</span>
+            <span>API development and integration</span>
+          </div>
+        </div>
+        <div class="services__box">
+          <img src="./static/media/services/3.svg" alt="" />
+          <h2>Data Analytics</h2>
+          <div class="services__product">
+            <span>Data Cleaning and Preparation </span>
+            <span>Exploratory Data Analysis (EDA)</span>
+            <span>Data Visualization (PowerBi)</span>
+            <span>Extract, Transform, Load (ETL)</span>
+            <span>Business Intelligence Reporting</span>
+            <span>Predictive Analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="digital container">
+      <h1>Digital Showcase</h1>
+      <div class="digital__container" id="digital">
+        <div class="digital__box">
+          <img src="./static/media/digital/sablon.png" alt="" />
+          <div class="digital__info">
+            <h3>Landing page</h3>
+            <span>Co-working office website</span>
+          </div>
+        </div>
+        <div class="digital__box">
+          <img src="./static/media/digital/sablon.png" alt="" />
+          <div class="digital__info">
+            <h3>Landing page</h3>
+            <span>Co-working office website</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact container" id="contact">
+      <div class="contact__socialmedia">
+        <h1>Have something in mind?</h1>
+        <p>We're just a message away. Let's make something great together!</p>
+        <div class="contact__social">
+          <a href="https://t.me/aichurokzk"
+            ><img src="./static/media/contact/telegram.svg" alt=""
+          /></a>
+          <a href="https://api.whatsapp.com/send/?phone=97450771187&text&type=phone_number&app_absent=0"><img src="./static/media/contact/wp.svg" alt="" /></a>
+          <a href=""><img src="./static/media/contact/inst.svg" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form method="post" autocomplete="off">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=""
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder=""
+              required
+              maxlength="300"
+            ></textarea>
+            <div id="charCounter" class="char-counter">0/300</div>
+
+            <!-- <input
+                  type="text"
+                  id="message"
+                  name="message"
+                  placeholder="Message"
+                  required
+                /> -->
+          </div>
+          <button type="submit" class="form-btn">Send</button>
+        </form>
+      </div>
+    </div>
+
+    
+
+
+    <script src="./static/js/burger.js"></script>
+    <script src="./static/js/textarea.js"></script>
+  </body>
+</html>

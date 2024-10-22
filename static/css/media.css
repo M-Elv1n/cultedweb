@@ -1,0 +1,169 @@
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1150px;
+  }
+  .info h1 {
+    font-size: 64px;
+    line-height: 67px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .info h1 {
+    font-size: 46px;
+    line-height: 52px;
+    padding: 34px;
+  }
+
+  .info p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .services__container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .services__container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .services__container::-webkit-scrollbar-thumb {
+    background-color: #00bcd4;
+    border-radius: 10px;
+  }
+
+  .services__box {
+    min-width: 300px;
+    flex-shrink: 0;
+  }
+
+  .contact-form {
+    width: 60%;
+  }
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+  .contact__img {
+    justify-content: space-around;
+    gap: 0;
+  }
+  .contact__img {
+    justify-content: space-around;
+    gap: 0;
+  }
+  .contact__socialmedia {
+    text-align: center;
+  }
+  .contact__social{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 700px;
+  }
+  .header__list {
+    gap: 10px;
+  }
+  .digital__container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 454px;
+  }
+  .header__main {
+    display: none;
+  }
+  .header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    right: 0;
+  }
+
+  .info h1 {
+    font-size: 34px;
+    line-height: 33px;
+    padding: 0;
+  }
+
+  .info p {
+    font-size: 21px;
+    line-height: 22px;
+    padding: 0;
+  }
+
+  .bg {
+    height: 405px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 567px) {
+  .container {
+    max-width: 467px;
+  }
+  .contact {
+    padding: 0px 16px;
+    margin-top: 60px;
+  }
+  .contact__socialmedia {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact__img {
+    justify-content: space-evenly;
+  }
+  .contact__socialmedia h1 {
+    font-size: 27px;
+  }
+  .contact__socialmedia p {
+    font-size: 20px;
+  }
+  .form-btn {
+    padding: 10px;
+    font-size: 22px;
+  }
+  .form-group input,
+  .form-group textarea {
+    padding: 8px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-btn {
+    font-size: 18px;
+  }
+  .active .header__menu {
+    top: 35px;
+  }
+  .contact {
+    margin-top: 35px;
+  }
+}

@@ -1,0 +1,31 @@
+.services{
+}
+
+.services__title{
+    font-size: 30px;
+    color: #54CBE4;
+    text-align: center;
+}
+
+.services__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.services__box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #353535;
+    border-radius: 5px;
+}
+
+.services__product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 21px;
+}
