@@ -20,8 +20,9 @@
   gap: 8px;
 }
 
-.contact__socialmedia h1{
+#contact__socialmedia--title{
   color: #54CBE4;
+  font-size: 30px;
 }
 
 .contact__info p{

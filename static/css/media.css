@@ -110,7 +110,6 @@
   }
 
   .info p {
-    font-size: 21px;
     line-height: 22px;
     padding: 0;
     text-align: center;
@@ -158,6 +157,12 @@
   .form-group textarea {
     padding: 8px;
     font-size: 20px;
+  }
+  .services__container{
+    padding: 13px;
+  }
+  .digital__box{
+    padding: 0 10px;
   }
 }
 

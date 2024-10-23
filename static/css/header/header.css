@@ -57,7 +57,8 @@
   left: -100%;
   top: 0;
   /* background: #222; */
-  background: linear-gradient(to right, #0b1120, #0d1a2d);
+  /* background: linear-gradient(to right, #0b1120, #0d1a2d); */
+  background-color: #252B31;
   overflow: auto;
   z-index: 110;
 }
@@ -74,7 +75,7 @@
 
 .header__menu li {
   /* background-color: #2b2b2b; */
-  background-color: rgba(33, 40, 46);
+  background-color: #131A20;
   width: 100%;
   padding: 17px;
   border-radius: 8px;
