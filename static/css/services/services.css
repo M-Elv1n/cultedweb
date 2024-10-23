@@ -18,7 +18,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #353535;
+    /* border: 1px solid #353535; */
+    border: 1px solid #252B31;
     border-radius: 5px;
 }
 

@@ -5,7 +5,6 @@
 
 a {
   text-decoration: none;
-  font-size: 18px;
 }
 
 ol,
@@ -23,7 +22,14 @@ body {
   width: 100%;
   font-family: "Inter", sans-serif;
   font-style: normal;
+  font-size: medium 30;
   background-color: #131A20;
+}
+
+@media (max-width: 767px){
+  body{
+    font-size: medium 25;
+  }
 }
 
 .background{

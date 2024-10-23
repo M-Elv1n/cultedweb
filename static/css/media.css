@@ -24,25 +24,8 @@
     line-height: 30px;
   }
 
-  .services__container {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
-    padding-bottom: 20px;
-  }
-  .services__container::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-  }
-
-  .services__container::-webkit-scrollbar-thumb {
-    background-color: #00bcd4;
-    border-radius: 10px;
-  }
-
-  .services__box {
-    min-width: 300px;
-    flex-shrink: 0;
+  .services__product{
+    font-size: 17px;
   }
 
   .contact-form {
@@ -81,6 +64,26 @@
     grid-template-columns: 1fr;
     gap: 50px;
   }
+  .services__container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .services__container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .services__container::-webkit-scrollbar-thumb {
+    background-color: #00bcd4;
+    border-radius: 10px;
+  }
+
+  .services__box {
+    min-width: 300px;
+    flex-shrink: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -97,6 +100,7 @@
     width: 100%;
     padding: 10px 20px;
     right: 0;
+    background-color: rgba(37, 43, 49, 0.5);
   }
 
   .info h1 {
@@ -109,6 +113,7 @@
     font-size: 21px;
     line-height: 22px;
     padding: 0;
+    text-align: center;
   }
 
   .bg {

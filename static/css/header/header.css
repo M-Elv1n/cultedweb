@@ -1,10 +1,20 @@
 .header {
   /* margin-top: 30px; */
   /* background: rgba(34, 34, 34, 0.13); */
-  background: linear-gradient(to right, #0b1120, #0d1a2d);
-  backdrop-filter: blur(71px);
-  -webkit-backdrop-filter: blur(71px);
+
+  /* background: linear-gradient(to right, #0b1120, #0d1a2d);
+  backdrop-filter: blur(50%);
+  -webkit-backdrop-filter: blur(71px); */
   /* #0D2E4C */
+
+  background-color: rgba(
+    19,
+    26,
+    32,
+    0.01
+  ); /* Цвет #131A20 с прозрачностью 1% */
+  backdrop-filter: blur(50px); /* Размытие фона */
+  -webkit-backdrop-filter: blur(50px); /* Для поддержки в Safari */
   position: fixed;
   width: 100%;
   top: 0;

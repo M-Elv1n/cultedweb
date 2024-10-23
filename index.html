@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="static//css/normalize.css" />
     <link rel="stylesheet" href="static/css/style.css" />
     <link rel="stylesheet" href="static/css/header/header.css" />
@@ -41,7 +47,6 @@
     </header>
 
     <div class="info">
-
       <div class="info__items container">
         <h1>Innovative Websites that tell your Brand's story</h1>
         <p>
@@ -51,7 +56,7 @@
           vision into a powerful online presence.
         </p>
       </div>
-      <img class="bg" src="./static/media/bck.jpg" alt="">
+      <img class="bg" src="./static/media/bck.jpg" alt="" />
     </div>
 
     <div class="services container">
@@ -100,17 +105,29 @@
       <h1>Digital Showcase</h1>
       <div class="digital__container" id="digital">
         <div class="digital__box">
-          <img src="./static/media/digital/sablon.png" alt="" />
+          <img src="./static/media/digital/sablon.png" alt="" class="digital__img"/>
           <div class="digital__info">
-            <h3>Landing page</h3>
-            <span>Co-working office website</span>
+            <div class="digital__text">
+              <h3>Landing page</h3>
+              <span>Co-working office website</span>
+            </div>
+            <div class="digital__btn">
+              <a href="">Click to view</a>
+              <a href=""><img src="./static/media/digital/btn.svg" alt=""></a>
+            </div>
           </div>
         </div>
         <div class="digital__box">
-          <img src="./static/media/digital/sablon.png" alt="" />
+          <img src="./static/media/digital/sablon.png" alt="" class="digital__img"/>
           <div class="digital__info">
-            <h3>Landing page</h3>
-            <span>Co-working office website</span>
+            <div class="digital__text">
+              <h3>Landing page</h3>
+              <span>Co-working office website</span>
+            </div>
+            <div class="digital__btn">
+              <a href="">Click to view</a>
+              <a href=""><img src="./static/media/digital/btn.svg" alt=""></a>
+            </div>
           </div>
         </div>
       </div>
@@ -124,7 +141,10 @@
           <a href="https://t.me/aichurokzk"
             ><img src="./static/media/contact/telegram.svg" alt=""
           /></a>
-          <a href="https://api.whatsapp.com/send/?phone=97450771187&text&type=phone_number&app_absent=0"><img src="./static/media/contact/wp.svg" alt="" /></a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=97450771187&text&type=phone_number&app_absent=0"
+            ><img src="./static/media/contact/wp.svg" alt=""
+          /></a>
           <a href=""><img src="./static/media/contact/inst.svg" alt="" /></a>
         </div>
       </div>
@@ -169,9 +189,6 @@
         </form>
       </div>
     </div>
-
-    
-
 
     <script src="./static/js/burger.js"></script>
     <script src="./static/js/textarea.js"></script>
