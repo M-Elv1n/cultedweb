@@ -132,6 +132,9 @@
   .container {
     max-width: 467px;
   }
+  .info__items{
+    padding: 13px;
+  }
   .contact {
     padding: 0px 16px;
     margin-top: 60px;
@@ -162,7 +165,7 @@
     padding: 13px;
   }
   .digital__box{
-    padding: 0 10px;
+    padding: 0 13px;
   }
 }
 
