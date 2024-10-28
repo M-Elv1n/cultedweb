@@ -135,6 +135,9 @@
   .info__items{
     padding: 16px;
   }
+  .info p {
+    font-size: 20px;
+  }
   .contact {
     padding: 0px 16px;
     margin-top: 60px;
