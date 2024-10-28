@@ -133,7 +133,7 @@
     max-width: 467px;
   }
   .info__items{
-    padding: 13px;
+    padding: 16px;
   }
   .contact {
     padding: 0px 16px;
@@ -162,10 +162,10 @@
     font-size: 20px;
   }
   .services__container{
-    padding: 13px;
+    padding: 16px;
   }
   .digital__box{
-    padding: 0 13px;
+    padding: 0 16px;
   }
 }
 
