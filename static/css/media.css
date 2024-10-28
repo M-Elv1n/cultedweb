@@ -24,7 +24,7 @@
     line-height: 30px;
   }
 
-  .services__product{
+  .services__product {
     font-size: 17px;
   }
 
@@ -48,7 +48,7 @@
   .contact__socialmedia {
     text-align: center;
   }
-  .contact__social{
+  .contact__social {
     justify-content: center;
   }
 }
@@ -132,11 +132,15 @@
   .container {
     max-width: 467px;
   }
-  .info__items{
+  .info__items {
     padding: 16px;
   }
   .info p {
     font-size: 20px;
+  }
+  .info h1 {
+    font-size: 31px;
+    line-height: 31px;
   }
   .contact {
     padding: 0px 16px;
@@ -164,10 +168,10 @@
     padding: 8px;
     font-size: 20px;
   }
-  .services__container{
+  .services__container {
     padding: 16px;
   }
-  .digital__box{
+  .digital__box {
     padding: 0 16px;
   }
 }
