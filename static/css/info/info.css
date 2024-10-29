@@ -20,6 +20,7 @@
 .info h1 {
   font-size: 71px;
   line-height: 78px;
+  margin-bottom: 0;
 }
 
 .info p {
@@ -27,6 +28,7 @@
   line-height: 40.5px;
   text-align: start;
   padding: 0 58px;
+  text-align: center;
 }
 
 .bg {

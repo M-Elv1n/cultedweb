@@ -28,7 +28,8 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#digital">Portfolio</a></li>
         </ul>
-        <p><a href="#contact">Get in Touch</a></p>
+        <!-- <p><a href="#contact">Get in Touch</a></p> -->
+        <button id="toggleButton" onclick="toggleLanguage()">РУС</button>
       </div>
       <div class="header__body">
         <a href=""><img src="./static/media/header/logo (1).svg" alt="" /></a>
@@ -42,6 +43,10 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#digital">Portfolio</a></li>
           <li><a href="#contact">Get in Touch</a></li>
+          <div>
+            <li>English</li>
+            <li>РУССКИЙ</li>
+          </div>
         </ul>
       </div>
     </header>
@@ -106,7 +111,11 @@
       <p>Digital Showcase</p>
       <div class="digital__container" id="digital">
         <div class="digital__box">
-          <img src="./static/media/digital/sablon.png" alt="" class="digital__img"/>
+          <img
+            src="./static/media/digital/sablon.png"
+            alt=""
+            class="digital__img"
+          />
           <div class="digital__info">
             <div class="digital__text">
               <h3>Landing page</h3>
@@ -114,12 +123,16 @@
             </div>
             <div class="digital__btn">
               <!-- <a href="">Click to view</a> -->
-              <a href=""><img src="./static/media/digital/btn.svg" alt=""></a>
+              <a href=""><img src="./static/media/digital/btn.svg" alt="" /></a>
             </div>
           </div>
         </div>
         <div class="digital__box">
-          <img src="./static/media/digital/sablon.png" alt="" class="digital__img"/>
+          <img
+            src="./static/media/digital/sablon.png"
+            alt=""
+            class="digital__img"
+          />
           <div class="digital__info">
             <div class="digital__text">
               <h3>Landing page</h3>
@@ -127,7 +140,7 @@
             </div>
             <div class="digital__btn">
               <!-- <a href="">Click to view</a> -->
-              <a href=""><img src="./static/media/digital/btn.svg" alt=""></a>
+              <a href=""><img src="./static/media/digital/btn.svg" alt="" /></a>
             </div>
           </div>
         </div>
@@ -193,5 +206,6 @@
 
     <script src="./static/js/burger.js"></script>
     <script src="./static/js/textarea.js"></script>
+    <script src="./static/js/toggleButton.js"></script>
   </body>
 </html>

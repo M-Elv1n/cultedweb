@@ -14,9 +14,10 @@
   }
 
   .info h1 {
-    font-size: 46px;
+    font-size: 49px;
     line-height: 52px;
     padding: 34px;
+    padding-bottom: 0;
   }
 
   .info p {
@@ -112,7 +113,6 @@
   .info p {
     line-height: 22px;
     padding: 0;
-    text-align: center;
   }
 
   .bg {

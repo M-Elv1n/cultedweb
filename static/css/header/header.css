@@ -44,6 +44,17 @@
   color: black;
 }
 
+#toggleButton {
+  background-color: #4dd0e1;
+  border: none;
+  color: #131A20;
+  padding: 6px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
 /* burger */
 .header__body {
   display: none;
@@ -83,6 +94,16 @@
 
 .header__menu li a {
   display: block;
+}
+
+.header__menu div{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 15.6px;
+  gap: 10px;
 }
 
 .header__hamburger {
